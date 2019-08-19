@@ -19,6 +19,7 @@ for i in range(0,num_csvs):
 
     size = random.randint(1,len(colors))
     input_file = '%s/sing_input_%d.csv' % (RUN_DIR,i)
+    print('writing csv file ',input_file)
     with open(input_file,'w') as csvfile:
         input_writer = csv.writer(csvfile)
         for j in range(0,size):
