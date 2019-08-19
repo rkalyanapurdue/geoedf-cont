@@ -3,8 +3,7 @@
 import random,sys,csv
 
 #job run directory
-#RUN_DIR = str(sys.argv[1])
-RUN_DIR = '/tmp'
+RUN_DIR = str(sys.argv[1])
 
 #create a few dummy csv files
 num_csvs = random.randint(0,5)
